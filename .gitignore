@@ -1,0 +1,29 @@
+# dependencies
+**/node_modules
+
+# build
+dist
+build
+
+# turbo
+.turbo
+
+# env
+.env.*
+!.env.example
+
+# logs
+*.log
+
+# coverage
+coverage
+
+# IDE
+.vscode
+.idea
+
+# macOS
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
